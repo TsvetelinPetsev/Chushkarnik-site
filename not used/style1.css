@@ -1,0 +1,97 @@
+/*Basic styles*/
+@font-face {
+    font-family: 'LogoFont';
+    src: url(resources/Xorx_Windy2.ttf);
+}
+#wrapper {
+    min-height: 100%;
+    position:relative;
+}
+/* header styles*/
+header{
+    background-color: #ffd700;
+    background-image: url(images/fire_transperant.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: 177px;
+}
+header nav a>span{
+    font-family: LogoFont;
+    color:#C82600;
+    font-size: 30px;
+    visibility: hidden;
+}
+#nav{
+    background-color:transparent;
+    border:none;
+}
+#nav ul>li>a{
+    color: #C82600;
+    padding: 7px 7px;
+    background-color: #ffd700;
+}
+#nav ul>li>a:hover{
+    color: #657A11;
+}
+#dropdown-menu{
+    padding: 5px;
+    background-color: rgba(255, 215, 0, 0.5);
+}
+/*main styles*/
+/*basic targets behavior*/
+.clearfix2:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0; }
+.text-italic{
+    font-style: italic;
+}
+.text-bold{
+    font-weight: 900;
+}
+.page{
+    margin: 20px auto auto auto;
+    width: 90%;
+    border: 2px solid #C82600;
+    border-radius: 10px;
+    padding: 5px;
+}
+.page h1{
+    margin-bottom: 20px;
+    color: #607913;
+    text-align: center;
+}
+.page p{
+    text-align: justify;
+}
+.hr {
+    border-top: 2px solid #C82600;
+}
+
+#beginning{
+    padding: 30px;
+}
+
+
+#future div.image{
+    width: 207px;
+    height: 207px;
+    padding: 1px;
+    border:2px solid #C82600;
+    border-radius: 7px;
+}
+#future div.image > img {
+    max-width: 100%;
+}
+
+
+
+
+/*footer styles*/
+#footer{
+    padding-top: 60px;
+}
+.navbar{
+    background-color: rgb(255,215,0) !important;
+}
